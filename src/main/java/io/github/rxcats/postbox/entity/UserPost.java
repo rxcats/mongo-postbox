@@ -25,7 +25,7 @@ public class UserPost {
 
     private Sender sender;
 
-    private PostMessage messages;
+    private PostMessage message;
 
     private List<Item> items;
 

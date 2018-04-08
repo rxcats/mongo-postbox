@@ -45,7 +45,7 @@ public class UserPostRepositoryTest {
         expected.setExpireAt(LocalDateTime.now().plusMonths(6));
         expected.setSender(sender());
         expected.setItems(items());
-        expected.setMessages(message());
+        expected.setMessage(message());
 
         UserPost actual = userPostRepository.insert(expected);
         assertThat(actual).isEqualTo(expected);
